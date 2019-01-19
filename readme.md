@@ -19,6 +19,9 @@ If you're new to whiteboarding, here's a miniature prerequisite roadmap to help 
 
 ## Past problems
 
+### Other Problems
+1. [Merge Sort](https://www.hackerrank.com/challenges/ctci-merge-sort)
+
 ### 11/07/2018
 
 1. [Longest path in DAG](/2018-11-07/longest_path_in_dag.py)
