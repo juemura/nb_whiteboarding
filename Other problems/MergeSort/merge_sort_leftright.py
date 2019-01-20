@@ -5,6 +5,8 @@ import os
 import random
 import re
 import sys
+import time
+
 
 # Complete the countInversions function below.
 def countInversions(arr):
@@ -41,18 +43,21 @@ def merge(arr, left, right):
     return count
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+# if __name__ == '__main__':
+#     # fptr = open(os.environ['OUTPUT_PATH'], 'w')
+#     fptr = open('output.txt', 'w')
 
-    t = int(input())
+#     t = int(input())
 
-    for t_itr in range(t):
-        n = int(input())
+#     for t_itr in range(t):
+#         n = int(input())
 
-        arr = list(map(int, input().rstrip().split()))
+#         arr = list(map(int, input().rstrip().split()))
+        
+#         start_time = time.time()
+#         result = countInversions(arr)
+#         print("--- %s seconds ---" % (time.time() - start_time))
 
-        result = countInversions(arr)
+#         fptr.write(str(result) + '\n')
 
-        fptr.write(str(result) + '\n')
-
-    fptr.close()
+#     fptr.close()

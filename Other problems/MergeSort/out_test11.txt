@@ -1,0 +1,61 @@
+Test #11: 
+
+---Using slice 0.6194169521331787 seconds ---
+---Using temp 0.7117249965667725 seconds ---
+---Using temp/islice 178.93510508537292 seconds ---
+
+---Using slice 0.5492370128631592 seconds ---
+---Using temp 0.6194789409637451 seconds ---
+---Using temp/islice 166.27995705604553 seconds ---
+
+---Using slice 0.5491971969604492 seconds ---
+---Using temp 0.6461400985717773 seconds ---
+---Using temp/islice 562.4527390003204 seconds ---
+
+---Using slice 0.552574872970581 seconds ---
+---Using temp 0.6347939968109131 seconds ---
+---Using temp/islice 405.70807003974915 seconds ---
+
+---Using slice 0.5401618480682373 seconds ---
+---Using temp 0.6446998119354248 seconds ---
+---Using temp/islice 276.09469294548035 seconds ---
+
+---Using slice 0.5509188175201416 seconds ---
+---Using temp 0.6295750141143799 seconds ---
+---Using temp/islice 186.9745671749115 seconds ---
+
+---Using slice 0.6365950107574463 seconds ---
+---Using temp 0.8470058441162109 seconds ---
+---Using temp/islice 163.5953459739685 seconds ---
+
+---Using slice 0.5559179782867432 seconds ---
+---Using temp 0.643747091293335 seconds ---
+---Using temp/islice 170.91552805900574 seconds ---
+
+---Using slice 0.5667140483856201 seconds ---
+---Using temp 0.6343698501586914 seconds ---
+---Using temp/islice 174.60993790626526 seconds ---
+
+---Using slice 0.5710670948028564 seconds ---
+---Using temp 0.659883975982666 seconds ---
+---Using temp/islice 186.7742829322815 seconds ---
+
+---Using slice 0.5852270126342773 seconds ---
+---Using temp 0.6322720050811768 seconds ---
+---Using temp/islice 163.74482989311218 seconds ---
+
+---Using slice 0.5628299713134766 seconds ---
+---Using temp 0.6466848850250244 seconds ---
+---Using temp/islice 166.52823281288147 seconds ---
+
+---Using slice 0.546759843826294 seconds ---
+---Using temp 0.6447350978851318 seconds ---
+---Using temp/islice 179.29462909698486 seconds ---
+
+---Using slice 0.561755895614624 seconds ---
+---Using temp 0.6288020610809326 seconds ---
+---Using temp/islice 163.1696901321411 seconds ---
+
+---Using slice 0.5548019409179688 seconds ---
+---Using temp 0.6677777767181396 seconds ---
+---Using temp/islice 164.1566460132599 seconds ---
