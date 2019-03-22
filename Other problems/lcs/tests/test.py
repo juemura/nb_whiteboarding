@@ -7,10 +7,6 @@ import time
 from lcs import lcs
 
 if __name__ == '__main__':
-    # fptr = open('out_test02.txt', 'w')
-
-    # fptr.write('Test #2: \n\n')
-    
 
     nm = input().split()
 
@@ -28,5 +24,3 @@ if __name__ == '__main__':
     print(x)
 
     print(result)
-
-    # fptr.close()

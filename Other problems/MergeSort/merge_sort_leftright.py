@@ -41,22 +41,3 @@ def merge(arr, left, right):
         arr[index:] = right[r:]
     return count
 
-
-# if __name__ == '__main__':
-#     # fptr = open(os.environ['OUTPUT_PATH'], 'w')
-#     fptr = open('output.txt', 'w')
-
-#     t = int(input())
-
-#     for t_itr in range(t):
-#         n = int(input())
-
-#         arr = list(map(int, input().rstrip().split()))
-        
-#         start_time = time.time()
-#         result = countInversions(arr)
-#         print("--- %s seconds ---" % (time.time() - start_time))
-
-#         fptr.write(str(result) + '\n')
-
-#     fptr.close()

@@ -4,3 +4,5 @@
 *.out
 *.class
 *.pyc
+.DS_Store
+hrtool.py

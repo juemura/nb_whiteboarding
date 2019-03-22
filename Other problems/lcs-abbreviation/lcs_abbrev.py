@@ -7,35 +7,6 @@ import re
 import sys
 
 
-# Complete the abbreviation function below.
-# def abbreviation(a, b):
-#     # print("new word")
-#     rows, cols = len(a)+1, len(b)+1
-#     if cols > rows or (cols-1 < sum(x.isupper() for x in a)):
-#         return 'NO'
-#     m = [[0 for _ in range(cols)] for _ in range(rows)]
-#     impossible = False
-#     # j2 = 1
-#     for i in range(1, rows):
-#         # print('a letter: ', a[i-1])        
-#         if a[i-1].isupper():
-#             # if a[i-1] != b[j2-1]:
-#             #     return 'NO'           
-#             impossible = True
-#         for j in range(1, cols):
-#             # print('b letter: ', b[j-1])
-#             if a[i-1].upper() == b[j-1]:        
-#                 m[i][j] = m[i-1][j-1] + 1
-#                 impossible = False
-#                 # if j == j2:
-#                 #     j2 += 1
-#             else:
-#                 m[i][j] = max(m[i][j-1], m[i-1][j])
-#         if impossible:
-#             return 'NO'
-#     return 'YES' if m[rows-1][cols-1] == cols-1 else 'NO'
-
-
 
 def abbreviation(a, b):
     rows, cols = len(a)+1, len(b)+1
@@ -58,7 +29,6 @@ def abbreviation(a, b):
 
 
 if __name__ == '__main__':
-    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     q = int(input())
 
@@ -71,5 +41,4 @@ if __name__ == '__main__':
 
         print(result, '\n\n')
 
-    # fptr.close()
 

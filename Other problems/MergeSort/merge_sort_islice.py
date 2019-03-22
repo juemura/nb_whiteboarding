@@ -45,21 +45,3 @@ def merge(arr, temp, left_start, middle, right_end):
     arr[left_start:right_end + 1] = itertools.islice(temp, left_start, right_end + 1)
     return count
 
-
-# if __name__ == '__main__':
-#     fptr = open('output.txt')
-
-#     t = int(input())
-
-#     for t_itr in range(t):
-#         n = int(input())
-
-#         arr = list(map(int, input().rstrip().split()))
-        
-#         start_time = time.time()
-#         result = countInversions(arr)
-        
-#         fptr.write("--- %s seconds ---" % (time.time() - start_time))
-#         fptr.write(str(result) + '\n')
-
-#     fptr.close()
