@@ -8,7 +8,6 @@ import sys
 import time
 import itertools
 
-# Complete the countInversions function below.
 def countInversions(arr):
     size = len(arr)
     temp = [None]*size
